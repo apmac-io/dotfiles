@@ -1,3 +1,7 @@
+" ~~~ Plugs ~~~
+nnoremap <C-p> :<C-u>FZF<CR>
+
+
 " ~~~ Leader Shortcuts ~~~
 let mapleader=","         " set leader to comma
 
@@ -16,20 +20,13 @@ set backspace=indent,eol,start " make backspace delete sensibly
 set autoindent              " use indentation from previous line
 
 
-" ~~~ Plugs ~~~
-call plug#begin('~/.vim/plugged')
-Plug 'junegunn/fzf'
-Plug 'junegunn/fzf.vim'
-call plug#end()
-
-
 " ~~~ UI Config ~~~
 set number                  " show line numbers
 "set cursorline             " highlight current line
 set wildmenu                " visual autocomplete for command e:
 set lazyredraw              " redraw only when needed
 set showmatch               " highlight matching [{()}]
-set colorcolumn=80          " display vertical line at n chars
+"set colorcolumn=80          " display vertical line at n chars
 set hidden                  " suppress warning when switching off unsaved buffer
 set nowrap                  " do not wrap long lines
 
