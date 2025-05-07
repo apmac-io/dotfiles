@@ -1,5 +1,5 @@
-#theme = "tokyonight"
-theme = "gruvbox_dark_hard"
+theme = "tokyonight"
+#theme = "gruvbox_dark_hard"
 
 [editor]
 bufferline = "multiple"
